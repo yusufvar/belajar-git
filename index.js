@@ -7,4 +7,4 @@ var kabupaten = "gresik"
 var jawaban = ['sudah', 'belum'];
 var jawab = jawaban[Math.floor(Math.random() * jawaban.length)];
 
-prompt ('nama saya '+nama+' sekarang saya kuliah di '+universitas+', dan usia saya tahun ini '+usia+' tahun. Di usia saya sekarang saya masih tergolong '+golongan+'. Saya bertempat tinggal di kecamatan'+kecamatan+', kabupaten '+kabupaten+'. Di usia saya sekarang saya '+jawab+' mempunyai kekasih.');
+prompt ('nama saya '+nama+' sekarang saya kuliah di '+universitas+', dan usia saya tahun ini '+usia+' tahun. Di usia saya sekarang saya masih tergolong '+golongan+'. Saya bertempat tinggal di kecamatan'+kecamatan+', kabupaten '+kabupaten+'. Di usia saya sekarang saya '+jawab+' mempunyai kekasih, Terima kasih.');
