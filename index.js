@@ -24,9 +24,18 @@ alert (jumlah(1, 2))
 //     prompt ("ini hasil dari for "+i)
 // }
 
-for (var i = 1; i <= 10; i ++){
+var berapa = 5
+for (var i = berapa; i >= 1; i--){
     var bintang = " "
-    for (var j = 1; j <= i; j ++){
+    for (var j = 1; j <= i; j++){
+        bintang += "*"
+    }
+    console.log (bintang)
+}
+
+for (var i = 1; i<=berapa; i++){
+    var bintang = " "
+    for (var j = 1; j <= i; j++){
         bintang += "*"
     }
     console.log (bintang)
