@@ -12,8 +12,22 @@ function javascribt() {
 
 const jumlah = (a, b) => (a+b)
 
+
+
 prompt ('nama saya '+nama+' sekarang saya kuliah di '+universitas+', dan usia saya tahun ini '+usia+' tahun. Di usia saya sekarang saya masih tergolong '+golongan+'. Saya bertempat tinggal di kecamatan'+kecamatan+', kabupaten '+kabupaten+'. Di usia saya sekarang saya '+jawab+' mempunyai kekasih, Terima kasih.');
 
 alert (javascribt);
 
 alert (jumlah(1, 2))
+
+// for (var i = 1; i = 5; i++){
+//     prompt ("ini hasil dari for "+i)
+// }
+
+for (var i = 1; i <= 10; i ++){
+    var bintang = " "
+    for (var j = 1; j <= i; j ++){
+        bintang += "*"
+    }
+    console.log (bintang)
+}
