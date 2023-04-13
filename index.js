@@ -42,10 +42,6 @@
 // }
 
 let num1 = parseFloat(prompt("Masukkan bilangan pertama : "))
-let num2 = parseFloat(prompt("Masukkan biilangan kedua : "))
+let num2 = parseFloat(prompt("Masukkan bilangan kedua : "))
 
-if (angka(num1) || angka(num2)){
-    alert ("Angka yang di masukkan salah!!!")
-} else {
-    alert('Hasil penjumlahan : ${num1 + num2}, Hasil penjumlahan : ${num1 - num2}')
-}
+alert('Hasil penjumlahan dari bilangan '+ num1+'+'+num2+' adalah '+ (num1+num2))
