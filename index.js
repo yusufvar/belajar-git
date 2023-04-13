@@ -44,4 +44,5 @@
 let num1 = parseFloat(prompt("Masukkan bilangan pertama : "))
 let num2 = parseFloat(prompt("Masukkan bilangan kedua : "))
 
-alert('Hasil penjumlahan dari bilangan '+ num1+'+'+num2+' adalah '+ (num1+num2))
+alert('Hasil penjumlahan dari bilangan '+ num1+'+'+num2+' adalah '+ (num1+num2)+'\n'+
+'Hasil pengurangan dari bilangan '+ num1+'-'+num2+' adalah '+ (num1-num2))
