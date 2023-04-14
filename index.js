@@ -41,10 +41,17 @@
 //     console.log (bintang)
 // }
 
-let num1 = parseFloat(prompt("Masukkan bilangan pertama : "))
-let num2 = parseFloat(prompt("Masukkan bilangan kedua : "))
+// let num1 = parseFloat(prompt("Masukkan bilangan pertama : "))
+// let num2 = parseFloat(prompt("Masukkan bilangan kedua : "))
 
-alert('Hasil penjumlahan dari bilangan '+ num1+'+'+num2+' adalah '+ (num1+num2)+'\n'+
-'Hasil pengurangan dari bilangan '+ num1+'-'+num2+' adalah '+ (num1-num2)+'\n'+
-'Hasil perkalian dari bilangan '+ num1+'x'+num2+' adalah '+(num1*num2)+'\n'+
-'Hasil pembagian dari bilangan '+num1+':'+num2+' adalah '+(num1/num2))
+// alert('Hasil penjumlahan dari bilangan '+ num1+'+'+num2+' adalah '+ (num1+num2)+'\n'+
+// 'Hasil pengurangan dari bilangan '+ num1+'-'+num2+' adalah '+ (num1-num2)+'\n'+
+// 'Hasil perkalian dari bilangan '+ num1+'x'+num2+' adalah '+(num1*num2)+'\n'+
+// 'Hasil pembagian dari bilangan '+num1+':'+num2+' adalah '+(num1/num2))
+
+const num1 = prompt("masukkan angka : ")
+const num2 = prompt("masukkan angka : ")
+
+const sum = parseFloat(num1)+parseFloat(num2)
+
+alert("hasil dari "+num1+"+"+num2+"="+sum)
