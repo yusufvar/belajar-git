@@ -54,5 +54,7 @@ const num2 = prompt("masukkan angka : ")
 
 const sum = parseFloat(num1)+parseFloat(num2)
 const sum1 = parseFloat(num1)-parseFloat(num2)
+const sum2 = parseFloat(num1)*parseFloat(num2)
+const sum3 = parseFloat(num1)/parseFloat(num2)
 
-alert("hasil dari "+num1+"+"+num2+"="+sum+"\n"+"hasil dari "+num1+"-"+num2+"="+sum1)
+alert("hasil dari "+num1+"+"+num2+"="+sum+"\n"+"hasil dari "+num1+"-"+num2+"="+sum1+"\n"+"hasil dari "+num1+"x"+num2+"="+sum2+"\n"+"hasil dari "+num1+":"+num2+"="+sum3)
